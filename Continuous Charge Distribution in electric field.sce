@@ -1,0 +1,11 @@
+clc;
+clear;
+q = input ('Enter the value of charge q:');
+r = input ('Enter the value of distance b/w two charges r:');
+l = input ('Enter the value of length l:');
+rhoL = q/l; 
+rhoS = q/(4 * %pi *r^2);
+rhoV = (q/((4/3) * %pi *r^3));
+disp (rhoL, 'Linear Charge Density rhoL:______C/meter');
+disp (rhoS, 'Surface Charge Density rhoS:______C/meter^2');
+disp (rhoV, 'Volume Charge Density rhoV:______C/meter^3');
